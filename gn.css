@@ -1,11 +1,63 @@
+html {
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%; 
+}
+
 body{
     background: #ff7e5f;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+.navbar-brand{
+    margin-right: auto;
+    font-family: "Ranchers",system-ui;
+    font-size: var(--font-size-base-md);
+    background:  #ff7e5f;  /* Chrome 10-25, Safari 5.1-6 */
+
+}
+
+
+
+.ranchers-regular {
+  font-family: "Ranchers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.offcanvas-body{
+	 font-family: "Ranchers",system-ui;
+    font-size: var(--font-size-md);
+    color:rgb(243, 220, 10) ;
+background-color: #ff7e5f;
+}
+
+.offcanvas-header{
+	 font-family: "Ranchers",system-ui;
+    font-size: var(--font-size-lg);
+    color:rgb(243, 220, 10) ;}
+
+
+.nav-item {
+	font-family: "Ranchers", system-ui;
+	font-size:3.5rem;
+	 color:rgb(243, 220, 10) ;}
+.nav-link{
+	font-family: "Ranchers", system-ui;
+	font-size:3.5rem;
+	 color:rgb(243, 220, 10) ;}
+
+.dropdown-item{
+    font-family: "Ranchers",system-ui;
+    font-size: 1.3rem;
+    color:rgb(243, 220, 10) ;
+}
+
+
+
 h1{
-    color: rgb(249, 208, 3);
+    color: rgb(243, 220, 10);
     text-align: center;
     font-family: "Ranchers", system-ui;
 }
+
